@@ -1,19 +1,43 @@
 body{
     background-color: rgb(0, 0, 0);
+    margin: auto;
 }
 
 .container{
     display: flex;
     width: 100%;
-    border: chocolate solid;
+    /* border: chocolate solid; */
+    margin: 0%;
 }
+
+/* ESTILOS HEADER */
 
 .header{
     min-height: 100vh;
     border: solid greenyellow;
-    width: 300px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(33, 33, 33);
 }
 
-.main{
-    border: solid red;
+.header__section{
+    border: blue solid ;
+    text-align: center;
+    height: 50%;
 }
+
+.section__img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px 50px 50px 50px;
+    margin: 10px;
+}
+
+/* ESTILOS MAIN */
+
+.main{
+    /* border: solid red; */
+    width: 75%;
+}
+
