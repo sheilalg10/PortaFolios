@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    border: chocolate solid;
+}
+
+.header{
+    min-height: 100vh;
+    border: solid greenyellow;
+    width: 300px;
+}
+
+.main{
+    border: solid red;
+}
