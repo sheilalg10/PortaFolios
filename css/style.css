@@ -3,6 +3,11 @@ body{
     margin: auto;
 }
 
+@font-face {
+    font-family: Nunito;
+    src: url(../assets/fuentes/Nunito-VariableFont_wght.ttf);
+}
+
 .container{
     display: flex;
     width: 100%;
@@ -14,15 +19,16 @@ body{
 
 .header{
     min-height: 100vh;
-    border: solid greenyellow;
+    /* border: solid greenyellow; */
     width: 25%;
     display: flex;
     flex-direction: column;
     background-color: rgb(33, 33, 33);
+    border-right: solid 2px  rgb(51, 153, 104);
 }
 
 .header__section{
-    border: blue solid ;
+    /* border: blue solid ; */
     text-align: center;
     height: 50%;
 }
@@ -31,7 +37,28 @@ body{
     width: 100px;
     height: 100px;
     border-radius: 50px 50px 50px 50px;
-    margin: 10px;
+    margin-top: 70px;
+}
+
+.div__h1{
+    font-family: Nunito;
+    font-variant: small-caps;
+    color: aliceblue;
+}
+
+.div__h1--span{
+    color:  rgb(51, 153, 104);
+}
+
+.div__h2{
+    font-family: Nunito;
+    font-variant: small-caps;
+    color: white;
+    font-size: 1.2em;
+}
+
+.div__h2--span{
+    color:  rgb(51, 153, 104);
 }
 
 /* ESTILOS MAIN */
@@ -41,3 +68,32 @@ body{
     width: 75%;
 }
 
+/* ESTILOS LISTA */
+.section__nav{
+    text-align: center;
+}
+
+.nav__list{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.list__item{
+    border: solid rgb(51, 153, 104);
+    margin: 10px;
+    padding: 7px;
+    border-radius: 10px 10px 10px 10px;
+    font-family: Nunito;
+    font-variant: small-caps;
+    color: aliceblue;
+}
+
+.list__link{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.list__item:hover{
+    background-color:  rgb(51, 153, 104);
+    color: black;
+}
